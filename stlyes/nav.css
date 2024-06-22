@@ -13,7 +13,7 @@
 
 body {
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: var(--dark-gray);
     display: flex;
     justify-content: center;
@@ -37,11 +37,11 @@ body {
 
 .nav-left {
     display: flex;
-
 }
 
-.nav-left {
-    display: flex;
+.nav-left img {
+    width: 20px;
+    height: 20px;
 }
 
 .nav-bar img {
@@ -66,6 +66,10 @@ body {
     color: white;
 }
 
+.nav-right{
+    margin-top: 40px;
+}
+
 .nav-mob-right {
     display: none;
 }
@@ -79,8 +83,21 @@ body {
       display: none;
     }
 
+    .nav-right {
+        position: relative;
+    }
+
     .nav-mob-right {
         display: contents;
+        position: absolute;
         cursor: pointer;
+       
     }
+
+    .mob-icon {
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    
   }
