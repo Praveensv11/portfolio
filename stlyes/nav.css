@@ -91,12 +91,11 @@ body {
         display: contents;
         position: absolute;
         cursor: pointer;
-       
     }
 
     .mob-icon {
-        margin-top: 40px;
-        margin-right: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
     }
 
     
