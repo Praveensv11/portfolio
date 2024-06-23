@@ -132,3 +132,41 @@ body {
 .btn-cached:hover {
     border: 1px solid var(--pink-color);
 }
+
+
+
+@media only screen and (max-width: 900px) {
+    .projects-head-left{
+        width: 500px;
+    }
+    
+    .projects-head-right {
+        display: none;
+    }
+
+    .projects-head-left hr {
+        width: 300px;
+    }
+
+
+    .projects-head {
+        width: 400px;
+        margin: 0 10px 0 100px;
+    }
+    
+    .project-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen  and (max-width:600px) {
+    .projects-head-left hr {
+        display: none;
+    }
+}
