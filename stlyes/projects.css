@@ -1,3 +1,134 @@
 /* .projects-container {
     
 } */
+
+body {
+    height: 10000px;
+}
+
+:root {
+    --pink-color : #C778DD;
+    --gray-color : #ABB2BF;
+    --dark-gray : #282C33;
+}
+
+.projects-container{
+    margin-top: 40px;
+}
+
+.projects-head {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects-head-left {
+    width: 701px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tag-size {
+    font-size: 32px;
+}
+
+.projects-head-left hr {
+    width: 400px;
+    border-color: var(--pink-color);
+}
+
+.projects-head-left p {
+    font-size: 32px;
+    margin-right: 15px;
+}
+
+.projects-head-right {
+    position: relative;
+}
+
+.projects-head-right  a {
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.arrow-img{
+    width: 42px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    font-size: 16px;
+}
+
+/* project content */
+
+.card-img {
+    width: 330px;
+    height: 201px;
+    border: 1px solid gray;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.card {
+    width: 331px;
+}
+
+.card-skills {
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    color: var(--gray-color);
+    font-size: 16px;
+}
+
+.card-content-container {
+    border: 1px solid gray;
+}
+
+.project-title {
+    padding: 5px;
+    font-size: 24px;
+}
+
+.project-detail {
+    padding: 5px;
+    color: var(--gray-color);
+    font-size: 16px;
+}
+
+.card-btn {
+    padding: 5px;
+}
+
+.btn-live {
+    font-size: 16px;
+    padding: 2px 7px 2px 7px;
+    background-color: var(--dark-gray);
+    border: 1px solid gray;
+    color: white;
+}
+
+.btn-cached {
+    font-size: 16px;
+    padding: 2px 7px 2px 7px;
+    background-color: var(--dark-gray);
+    border: 1px solid gray;
+    color: white;
+}
+
+.btn-live:hover {
+    border: 1px solid var(--pink-color);
+}
+
+.btn-cached:hover {
+    border: 1px solid var(--pink-color);
+}

@@ -21,7 +21,7 @@ body {
 
 .container {
     width: 1024px;
-    height: 1000px;
+    height: 100%;
     background-color: var(--dark-gray);
     color: white;
     display: flex;
