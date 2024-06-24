@@ -1,0 +1,26 @@
+:root {
+    --pink-color : #C778DD;
+    --gray-color : #ABB2BF;
+    --dark-gray : #282C33;
+}
+
+.about-container {
+    margin-top: 112px;
+}
+
+.about-head {
+    width: 516px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.about-head p {
+    font-size: 32px;
+}
+
+.about-head hr {
+    width: 326px;
+    margin-left: 15px;
+    border-color: var(--pink-color);
+}

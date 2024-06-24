@@ -1,14 +1,40 @@
 .skills-container {
-    margin-top: 106px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.skills-content {
+    margin-top: 16px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
+.skills-head {
+    margin-top: 106px;
+}
+
+.skills-head-left {
+    display: flex;
+    align-items: center;
+}
+
+.skills-head-left hr {
+    width: 240px;
+    margin-left: 10px;
+    border-color: var(--pink-color);
+}
+
+
 table, td, th{
-    border: 1px solid gainsboro;
+    border: 1px solid gray;
     border-collapse: collapse;
     padding: 4px;
+    word-spacing: 10px;
+}
+
+td {
+    color: white;
 }
 
 .skills-left {
@@ -18,4 +44,58 @@ table, td, th{
 th {
     display: flex;
     justify-content: flex-start;
+}
+
+.skills-col-1 {
+    display: flex;
+}
+
+.skills-col-1 table {
+    margin: 10px;
+}
+
+.skills-col-2 {
+    display: flex;
+    justify-content: flex-end   ;
+}
+
+.skills-col-2 table {
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .skills-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    table, th , td {
+        width: 350px;
+    }
+    
+    .skills-left {
+        display: none;
+    }
+
+    .skills-col-1 {
+        flex-direction: column;
+    }
+
+    .skills-col-2 {
+        flex-direction: column;
+    }
+
+    .skills-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media only screen  and (max-width:600px) {
+    
 }
