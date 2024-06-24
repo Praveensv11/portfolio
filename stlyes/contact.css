@@ -1,0 +1,71 @@
+:root {
+    --pink-color : #C778DD;
+    --gray-color : #ABB2BF;
+    --dark-gray : #282C33;
+}
+
+.contact-container {
+    margin-top: 180px;
+    width: 100%;
+    height: 400px;
+}
+
+.contact-head {
+    display: flex;
+    align-items: center;
+}
+
+.contact-head p {
+    font-size: 32px;
+}
+
+.contact-head hr {
+    width: 121px;
+    height: 1px;
+    border-color: var(--pink-color);
+    margin-left: 10px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-content-left p {
+    width: 505px;
+    margin-top: 45px;
+    color: var(--gray-color);
+}
+
+.contact-content-right {
+    width: 200px;
+    height: 141px;
+    border: 1px solid var(--dark-gray);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border: 1px solid var(--gray-color);
+}
+
+.contact-content-right-head{
+    margin-bottom: 10px;
+}
+
+.contact-container-head {
+    margin-bottom: 10px;
+}
+
+.contact-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--gray-color);
+}
+
+.contact-icon {
+    width: 32px;
+    margin-right: 10px;
+}
+
