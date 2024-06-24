@@ -13,3 +13,11 @@ icon_container.onclick = function(){
     }
 }
 
+let mob_nav = document.querySelectorAll('#mob-tag')
+
+mob_nav.forEach(mob => {
+    mob.addEventListener('click', ()=> {
+        burgur.style.display = 'none'
+        icon.setAttribute('src', 'images/icons/1564512_burger_catalogue_list_menu_icon.png');
+    })
+})

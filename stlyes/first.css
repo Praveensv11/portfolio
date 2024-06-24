@@ -29,9 +29,13 @@
     background-color: var(--dark-gray);
     border: 1px solid var(--pink-color);
     padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+
+.first-left button a {
     color: white;
     font-weight: bold;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .first-right {

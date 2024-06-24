@@ -33,14 +33,14 @@
                 <p>Praveen</p>
             </div>
             <div class="nav-content">
-                <a href="#"><span class="main-color">#</span>home</a>
-                <a href="#"><span class="main-color">#</span>works</a>
-                <a href="#"><span class="main-color">#</span>about-me</a>
-                <a href="#"><span class="main-color">#</span>contacts</a>
+                <a id="mob-tag" href="#home"><span class="main-color">#</span>home</a>
+                <a id="mob-tag" href="#project"><span class="main-color">#</span>works</a>
+                <a id="mob-tag" href="#aboutme"><span class="main-color">#</span>about-me</a>
+                <a id="mob-tag" href="#contact"><span class="main-color">#</span>contacts</a>
             </div>
             <div class="social-container">
                 <div class="social-media">
-                    <div><a href="#"><img src="images/icons/github.png" alt=""></a></div>
+                    <div><a href="#"><img src="images/icons/github.png" alt="https://github.com/Praveensv11"></a></div>
                     <div><a href="#"><img src="images/icons/linkedin.png" alt=""></a></div>
                     <div><a href="#"><img src="images/icons/insta.png" alt=""></a></div>
                 </div>
@@ -54,11 +54,11 @@
             </div>            
             <div class="nav-right">
                 <ul class="nav-ul">
-                    <li><a href="#"><span class="main-color">#</span>home</a></li>
-                    <li><a href="#"><span class="main-color">#</span>works</a></li>
-                    <li><a href="#"><span class="main-color">#</span>about-me</a></li>
-                    <li><a href="#"><span class="main-color">#</span>contacts</a></li>
-                    <li><a href="#"><img src="images/icons/7156618_git_github_icon.png" alt="github"></a></li>
+                    <li><a href="#home"><span class="main-color">#</span>home</a></li>
+                    <li><a href="#project"><span class="main-color">#</span>works</a></li>
+                    <li><a href="#aboutme"><span class="main-color">#</span>about-me</a></li>
+                    <li><a href="#contact"><span class="main-color">#</span>contacts</a></li>
+                    <li><a href="https://github.com/Praveensv11" target="_blank"><img src="images/icons/7156618_git_github_icon.png" alt="github"></a></li>
                 </ul>
                 <div class="nav-mob-right">
                     <img class="mob-icon " src="images/icons/1564512_burger_catalogue_list_menu_icon.png" alt="burgur">
@@ -67,12 +67,14 @@
             </div>
         </nav>
 
+        
         <!-- first  -->
+        <span id="home"></span>
         <div class="first-container">
             <div class="first-left">
                 <h1 class="first-head">Praveen is a <span class="pink-color">web designer</span> and <span class="pink-color">front-end developer</span></h1>
                 <p class="first-msg">He crafts responsive websites where technologies meet creativity</p>
-                <button>Contact me!!</button>
+                <button><a href="mailto:praveensv799@gmail.com">Contact me!!</a></button>
             </div>
             <div class="first-right">
                 <img src="images/firstImg/man.png" alt="man">
@@ -86,7 +88,7 @@
         </div>
 
        <!-- projects -->
-        <div class="projects-container">
+        <div id="project" class="projects-container">
             <div class="projects-head">
                 <div class="projects-head-left">
                     <span class="main-color tag-size">#</span>
@@ -94,8 +96,8 @@
                     <hr>
                 </div>
                 <div class="projects-head-right">
-                    <a href="">View all</a>
-                    <img class="arrow-img" src="images/icons/arrow.png" alt="">
+                    <a class="projects-views" href="project.html">View all</a>
+                    <a href="project.html"><img class="arrow-img" src="images/icons/arrow.png" alt="arrowimg"></a>
                 </div>
             </div>
             <div class="project-content">
@@ -206,6 +208,7 @@
         </div>
 
         <!-- about -->
+        <span id="aboutme"></span>
         <div class="about-container">
             <div class="about-head">
                 <span class="main-color tag-size">#</span>
@@ -226,7 +229,7 @@
         </div>      
         
         <!-- contact -->
-
+        <span id="contact"></span>
         <div class="contact-container">
             <div class="contact-head">
                 <span class="main-color tag-size">#</span>
@@ -243,13 +246,15 @@
                     </div>
                     <div class="contact-content-right-content">
                         <div class="contact-icon-container">
-                            <a href="#"><img class="contact-icon" src="discord.png" alt="discord"></a>
+                            <a href="#"><img class="contact-icon" src="images/contacts/discord.png" alt="discord"></a>
                             <p>!praveen#123</p>
                         </div>
-                        <div class="contact-icon-container">
-                            <a href="#"><img class="contact-icon" src="mail.png" alt="discord"></a>    
-                            <p>praveensv799@</p>
-                        </div>
+                        <a href="mailto:praveensv799@gmail.com" class="contact-a">
+                            <div class="contact-icon-container">
+                                <img class="contact-icon" src="images/contacts/mail.png" alt="mail">   
+                                <p>praveensv799@</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -268,9 +273,9 @@
             <div class="footer-contact">
                 <h4>Media</h4>
                 <div>
-                    <a href="#"><img class="footer-icon" src="images/icons/github.png" alt="github"></a>
-                    <a href="#"><img class="footer-icon" src="images/icons/linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img class="footer-icon" src="images/icons/insta.png" alt="insta"></a>
+                    <a href="https://github.com/Praveensv11" target="_blank"><img class="footer-icon" src="images/icons/github.png" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/praveen-sv/" target="_blank"><img class="footer-icon" src="images/icons/linkedin.png" alt="linkedin"></a>
+                    <a href="https://www.instagram.com/_praveensv_/" target="_blank"><img class="footer-icon" src="images/icons/insta.png" alt="insta"></a>
                 </div>
             </div>
         </div>
