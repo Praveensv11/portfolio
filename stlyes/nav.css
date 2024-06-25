@@ -5,6 +5,10 @@
     font-family: fira code;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --pink-color : #C778DD;
     --gray-color : #ABB2BF;
