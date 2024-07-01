@@ -101,6 +101,9 @@
 }
 
 @media only screen  and (max-width:600px) {
+    .quotes-container {
+        display: none;
+    }
     .first-container {
         flex-direction: column;
         align-items: center;

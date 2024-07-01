@@ -158,6 +158,9 @@
 }
 
 @media only screen  and (max-width:600px) {
+    .projects-container {
+        width: 350px;
+    }
     .projects-head-left hr {
         display: none;
     }

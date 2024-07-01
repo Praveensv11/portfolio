@@ -1,4 +1,4 @@
-:root {
+    :root {
     --pink-color : #C778DD;
     --gray-color : #ABB2BF;
     --dark-gray : #282C33;
@@ -90,13 +90,19 @@
 }
 
 @media only screen  and (max-width:600px) {
+    .contact-container {
+        width: 350px;
+        background-color: red;
+    }
+    
     .contact-content {
+        width: 400px;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
 
     .contact-content-left p {
-        width: 380px;
+        width: 350px;
     }
 }

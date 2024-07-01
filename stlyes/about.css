@@ -77,14 +77,12 @@
 
 @media only screen  and (max-width:600px) {
     .about-head {
-        width: 400px;
-        height: 42px;
+        width: 350px;
         display: flex;
         align-items: center;
     }
 
     .about-content-left {
-        width: 400px;
-        height: 312px;
+        width: 350px;
     }
 }
