@@ -128,9 +128,6 @@
 
 
 @media only screen and (max-width: 900px) {
-    .projects-head-left{
-        width: 500px;
-    }
     
     .projects-head-right {
         display: none;
@@ -158,6 +155,10 @@
 }
 
 @media only screen  and (max-width:600px) {
+    .projects-head-left{
+        width: 400px;
+    }
+
     .projects-head-left {
         display: none;
     }
@@ -168,6 +169,10 @@
         flex-direction: column;
     }
     .projects-head-left hr {
+        display: none;
+    }
+
+    #project {
         display: none;
     }
 }
