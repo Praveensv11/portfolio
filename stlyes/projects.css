@@ -158,8 +158,14 @@
 }
 
 @media only screen  and (max-width:600px) {
+    .projects-head-left {
+        display: none;
+    }
+   
     .projects-container {
         width: 350px;
+        display: flex;
+        flex-direction: column;
     }
     .projects-head-left hr {
         display: none;
